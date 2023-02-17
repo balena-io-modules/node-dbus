@@ -19,7 +19,6 @@
   },
   "main": "./lib/dbus",
   "scripts": {
-    "node-gyp": "node_modules/.bin/node-gyp",
     "install": "npm run build:release",
     "test": "tap test/**/*.test.js",
     "build:release": "node-gyp configure build",
@@ -33,7 +32,7 @@
     "!win32"
   ],
   "devDependencies": {
-    "node-gyp": "^4.0.0",
-    "tap": "^13.1.11"
+    "node-gyp": "^9.3.1",
+    "tap": "^16.3.4"
   }
 }
